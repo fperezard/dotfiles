@@ -1,5 +1,5 @@
 # Configuración de Alacritty para Windows, apuntando a WSL
-[shell]
+[terminal.shell]
 program = "wsl"
 args = ["~"]
 
