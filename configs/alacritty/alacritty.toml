@@ -5,5 +5,5 @@ args = ["~"]
 
 # Asegúrate de que el nombre de la familia de la fuente sea el correcto
 [font]
-normal = { family = "Mononoke Nerd Font", style = "Regular" }
+normal = { family = "Mononoki Nerd Font", style = "Regular" }
 size = 12
