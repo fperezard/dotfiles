@@ -1,0 +1,9 @@
+# Configuración de Alacritty para Windows, apuntando a WSL
+[shell]
+program = "wsl"
+args = ["~"]
+
+# Asegúrate de que el nombre de la familia de la fuente sea el correcto
+[font]
+normal = { family = "Mononoke Nerd Font", style = "Regular" }
+size = 12
