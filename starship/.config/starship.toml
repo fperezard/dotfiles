@@ -1,0 +1,6 @@
+# Un diseño limpio y rápido
+format = "$directory$git_branch$git_status$char"
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"

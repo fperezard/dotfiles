@@ -1,10 +1,45 @@
-[window]
+[general]
+# Habilitar soporte para actualización en vivo al guardar este archivo
+live_config_reload = true
 
-opacity = 0.8
+[window]
+# Márgenes internos para que el texto de Neovim/Tmux no toque los bordes físicos
+padding = { x = 10, y = 10 }
+# Interfaz limpia nativa de macOS (elimina la barra de título superior, dejando solo los semáforos)
+decorations = "buttonless"
+# Ligeramente transparente para ver fondo sin perder legibilidad en el código
+opacity = 0.95 
+# Permite usar la tecla Option (⌥) como Meta/Alt. ¡VITAL para atajos en Neovim y Tmux!
+option_as_alt = "Both" 
 
 [font]
+# Tamaño ideal para un monitor 4K sin forzar la vista
+size = 15.0 
 
-normal = { family = "Mononoki Nerd Font", style = "Regular" }
-bold = { family = "Mononoki Nerd Font", style = "Bold" }
-italic = { family = "Mononoki Nerd Font", style = "Italic" }
-size = 12
+[font.normal]
+family = "Mononoki Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Mononoki Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Mononoki Nerd Font"
+style = "Italic"
+
+[colors.primary]
+# Un tema oscuro de alto contraste que hace resaltar a Starship y Neovim
+background = "#1a1b26" # Estilo Tokyo Night
+foreground = "#c0caf5"
+
+[colors.cursor]
+text = "#1a1b26"
+cursor = "#c0caf5"
+
+[selection]
+# Copiar al portapapeles de macOS automáticamente al seleccionar texto
+save_to_clipboard = true
+
+[env]
+TERM = "xterm-256color"
